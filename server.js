@@ -35,21 +35,21 @@ const vitalSigns = {
         "diastolic": "55-65",
     },
 
-    "preSchool": {
+    "preschool": {
         "heartRate": "80-150",
         "respiratoryRate": "22-30",
         "systolic": "90-105",
         "diastolic": "60-75",
     },
 
-    "schoolAge": {
+    "schoolage": {
         "heartRate": "70-120",
         "respiratoryRate": "18-25",
         "systolic": "97-115",
         "diastolic": "57-76",
     },
     
-    "preTeen": {
+    "preteen": {
         "heartRate": "60-110",
         "respiratoryRate": "16-22",
         "systolic": "100-120",
