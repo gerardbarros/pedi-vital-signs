@@ -35,7 +35,7 @@ const vitalSigns = {
         "diastolic": "55-65",
     },
 
-    "preSchool": {
+    "preschool": {
         "heartRate": "80-150",
         "respiratoryRate": "22-30",
         "systolic": "90-105",
