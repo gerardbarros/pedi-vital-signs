@@ -15,54 +15,59 @@ const vitalSigns = {
         'diastolic': '20-40'
     },
 
-    "newborn": {
-        "heartRate": "110-160",
-        "respiratoryRate": "35-55",
-        "systolic": "65-85",
-        "diastolic": "45-55",
+    'infant': {
+        'age': '1-12mo',
+        'pulse': '80-160',
+        'respirations':'26-40',
+        'systolic': '60-90',
+        'diastolic': '20-60'
     },
     
-    "infant": {
-        "heartRate": "110-160",
-        "respiratoryRate": "30-45",
-        "systolic": "70-90",
-        "diastolic": "50-65",
+    'toddler': {
+        'age': '1-2yrs',
+        'pulse': '80-130',
+        'respirations':'20-30',
+        'systolic': '75-100',
+        'diastolic': '50-70'
     },
 
-    "toddler": {
-        "heartRate": "90-160",
-        "respiratoryRate": "22-38",
-        "systolic": "80-100",
-        "diastolic": "55-65",
+    'preschool': {
+        'age': '3-5yrs',
+        'pulse': '80-110',
+        'respirations':'20-30',
+        'systolic': '80-110',
+        'diastolic': '50-80'
     },
 
-    "preschool": {
-        "heartRate": "80-150",
-        "respiratoryRate": "22-30",
-        "systolic": "90-105",
-        "diastolic": "60-75",
+    'schoolage': {
+        'age': '6-12yrs',
+        'pulse': '75-100',
+        'respirations':'20-24',
+        'systolic': '82-120',
+        'diastolic': '50-80'
     },
 
-    "schoolage": {
-        "heartRate": "70-120",
-        "respiratoryRate": "18-25",
-        "systolic": "97-115",
-        "diastolic": "57-76",
+    'adolescent': {
+        'age': '13-18yrs',
+        'pulse': '60-90',
+        'respirations':'16-20',
+        'systolic': '85-130',
+        'diastolic': '55-80'
     },
     
-    "preteen": {
-        "heartRate": "60-110",
-        "respiratoryRate": "16-22",
-        "systolic": "100-120",
-        "diastolic": "60-75",
-    },
+    // "preteen": {
+    //     "heartRate": "60-110",
+    //     "respiratoryRate": "16-22",
+    //     "systolic": "100-120",
+    //     "diastolic": "60-75",
+    // },
 
-    "adolescent": {
-        "heartRate": "60-100",
-        "respiratoryRate": "12-20",
-        "systolic": "110-135",
-        "diastolic": "60-75",
-    },
+    // "adolescent": {
+    //     "heartRate": "60-100",
+    //     "respiratoryRate": "12-20",
+    //     "systolic": "110-135",
+    //     "diastolic": "60-75",
+    // },
 
     "age group not found": {
         "heartRate": "unknown",
