@@ -54,20 +54,6 @@ const vitalSigns = {
         'systolic': '85-130',
         'diastolic': '55-80'
     },
-    
-    // "preteen": {
-    //     "heartRate": "60-110",
-    //     "respiratoryRate": "16-22",
-    //     "systolic": "100-120",
-    //     "diastolic": "60-75",
-    // },
-
-    // "adolescent": {
-    //     "heartRate": "60-100",
-    //     "respiratoryRate": "12-20",
-    //     "systolic": "110-135",
-    //     "diastolic": "60-75",
-    // },
 
     "age group not found": {
         "heartRate": "unknown",
