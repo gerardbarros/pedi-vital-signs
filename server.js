@@ -7,11 +7,12 @@ const cors = require("cors")
 app.use (cors())
 
 const vitalSigns = {
-    "neonate": {
-        "heartRate": "110-170",
-        "respiratoryRate": "40-70",
-        "systolic": "55-75",
-        "diastolic": "65-85",
+    'neonate': {
+        'age': '0-1mo',
+        'pulse': '70-170',
+        'respirations':'30-50',
+        'systolic': '50-70',
+        'diastolic': '20-40'
     },
 
     "newborn": {
