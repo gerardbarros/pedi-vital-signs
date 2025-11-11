@@ -8,7 +8,6 @@ app.use (cors())
 
 const vitalSigns = {
     'neonate': {
-        'age': '0-1mo',
         'pulse': '70-170',
         'respirations':'30-50',
         'systolic': '50-70',
@@ -16,7 +15,6 @@ const vitalSigns = {
     },
 
     'infant': {
-        'age': '1-12mo',
         'pulse': '80-160',
         'respirations':'26-40',
         'systolic': '60-90',
@@ -24,7 +22,6 @@ const vitalSigns = {
     },
     
     'toddler': {
-        'age': '1-2yrs',
         'pulse': '80-130',
         'respirations':'20-30',
         'systolic': '75-100',
@@ -32,7 +29,6 @@ const vitalSigns = {
     },
 
     'preschool': {
-        'age': '3-5yrs',
         'pulse': '80-110',
         'respirations':'20-30',
         'systolic': '80-110',
@@ -40,7 +36,6 @@ const vitalSigns = {
     },
 
     'schoolage': {
-        'age': '6-12yrs',
         'pulse': '75-100',
         'respirations':'20-24',
         'systolic': '82-120',
@@ -48,7 +43,6 @@ const vitalSigns = {
     },
 
     'adolescent': {
-        'age': '13-18yrs',
         'pulse': '60-90',
         'respirations':'16-20',
         'systolic': '85-130',
